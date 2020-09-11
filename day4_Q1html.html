@@ -1,0 +1,28 @@
+<html>
+<head>
+</head>
+<script>
+function first_img()
+{
+   
+    document.getElementById('img-path').src="IMG-20180813-WA0027.jpg";
+}
+function change_img()
+{
+    document.getElementById('img-path').src="Chrysanthemum.jpg";
+
+}
+function third_img()
+{
+    document.getElementById('img-path').src="IMG-20180813-WA0027.jpg";
+    
+}
+</script>
+<body>
+    <img  id="img-path" src="IMG-20180813-WA0027.jpg" width="50%" height="50%"/><br>
+    <span>
+    <button id="btn1" onclick="first_img()"> 1</button>
+    <button id="btn2" onclick="change_img()"> 2</button>
+    <button id="btn3" onclick="third_img()"> 3</button>
+</body>
+</html>

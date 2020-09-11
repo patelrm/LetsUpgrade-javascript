@@ -1,0 +1,62 @@
+<html>
+    <head><title> diplay Array element </title></head>
+    <script >
+    console.log("press ctlr+shfit+C");
+    let  info=[ 
+                {name:"Ruhi",
+                age:20,
+                country:"India",
+                hobbies:["cricket","hockey"]
+            },
+            {
+                name:"margee",
+                age:29,
+                country:"usa",
+                hobbies:["dance","reading"]
+            },
+            {
+                name:"mital",
+                age:30,
+                country:"India",
+                hobbies:["boxing"]
+            }
+        ];   
+    function disp(info)
+    {
+    
+        console.log(info);
+    }
+    function  disp_c()
+    {
+        let i;
+        for(i in info)
+        {
+            if(info[i].country=='India')
+            console.log(info[i])
+        }
+    }
+    function disp_age()
+    {
+        for(let i=0;i<info.length;i++)
+        {
+            if(info[i].age<30)
+            {
+                let e=info[i]
+                console.log(e)
+            }
+        }
+    }
+        console.log('====display all onbject==========');
+         disp(info);   
+         console.log('====display  object country is India==========');
+        disp_c();
+        console.log('====display  age is 30==========');
+        disp_age();
+    </script>
+<body>
+    
+
+    
+    </div>
+</body>
+</html>

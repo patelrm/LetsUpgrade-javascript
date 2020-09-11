@@ -1,0 +1,25 @@
+<html>
+    <head><title>input manuplation </title></head>
+    <script>
+        function copyText()
+        {
+           
+             document.getElementById('input2').value=
+             document.getElementById('input1').value;
+
+        }
+    </script>
+<body>
+    
+
+    <div class="frm">
+        <div class="frm-group">
+        Text 1:<input type="text" id="input1" placeholder="enter input something ..."><br>
+        Text 2:<input type="text"  id="input2" ><br>
+        <button onclick="copyText()" type="button">copy to second line</button><br>
+        <br>
+       
+        </div>
+    </div>
+</body>
+</html>
